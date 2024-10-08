@@ -1,11 +1,15 @@
 import {
+  Ai21ProviderCard,
   Ai360ProviderCard,
   AnthropicProviderCard,
   BaichuanProviderCard,
   BedrockProviderCard,
   DeepSeekProviderCard,
+  FireworksAIProviderCard,
+  GithubProviderCard,
   GoogleProviderCard,
   GroqProviderCard,
+  HunyuanProviderCard,
   MinimaxProviderCard,
   MistralProviderCard,
   MoonshotProviderCard,
@@ -16,9 +20,12 @@ import {
   PerplexityProviderCard,
   QwenProviderCard,
   SiliconCloudProviderCard,
+  SparkProviderCard,
   StepfunProviderCard,
   TaichuProviderCard,
   TogetherAIProviderCard,
+  UpstageProviderCard,
+  WenxinProviderCard,
   ZeroOneProviderCard,
   ZhiPuProviderCard,
   filterEnabledModels,
@@ -27,6 +34,10 @@ import { ModelProvider } from '@/libs/agent-runtime';
 import { UserModelProviderConfig } from '@/types/user/settings';
 
 export const DEFAULT_LLM_CONFIG: UserModelProviderConfig = {
+  ai21: {
+    enabled: false,
+    enabledModels: filterEnabledModels(Ai21ProviderCard),
+  },
   ai360: {
     enabled: false,
     enabledModels: filterEnabledModels(Ai360ProviderCard),
@@ -50,6 +61,14 @@ export const DEFAULT_LLM_CONFIG: UserModelProviderConfig = {
     enabled: false,
     enabledModels: filterEnabledModels(DeepSeekProviderCard),
   },
+  fireworksai: {
+    enabled: false,
+    enabledModels: filterEnabledModels(FireworksAIProviderCard),
+  },
+  github: {
+    enabled: false,
+    enabledModels: filterEnabledModels(GithubProviderCard),
+  },
   google: {
     enabled: false,
     enabledModels: filterEnabledModels(GoogleProviderCard),
@@ -57,6 +76,10 @@ export const DEFAULT_LLM_CONFIG: UserModelProviderConfig = {
   groq: {
     enabled: false,
     enabledModels: filterEnabledModels(GroqProviderCard),
+  },
+  hunyuan: {
+    enabled: false,
+    enabledModels: filterEnabledModels(HunyuanProviderCard),
   },
   minimax: {
     enabled: false,
@@ -99,6 +122,10 @@ export const DEFAULT_LLM_CONFIG: UserModelProviderConfig = {
     enabled: false,
     enabledModels: filterEnabledModels(SiliconCloudProviderCard),
   },
+  spark: {
+    enabled: false,
+    enabledModels: filterEnabledModels(SparkProviderCard),
+  },
   stepfun: {
     enabled: false,
     enabledModels: filterEnabledModels(StepfunProviderCard),
@@ -110,6 +137,14 @@ export const DEFAULT_LLM_CONFIG: UserModelProviderConfig = {
   togetherai: {
     enabled: false,
     enabledModels: filterEnabledModels(TogetherAIProviderCard),
+  },
+  upstage: {
+    enabled: false,
+    enabledModels: filterEnabledModels(UpstageProviderCard),
+  },
+  wenxin: {
+    enabled: false,
+    enabledModels: filterEnabledModels(WenxinProviderCard),
   },
   zeroone: {
     enabled: false,

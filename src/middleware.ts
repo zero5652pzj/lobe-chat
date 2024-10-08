@@ -9,11 +9,13 @@ import { OAUTH_AUTHORIZED } from './const/auth';
 export const config = {
   matcher: [
     // include any files in the api or trpc folders that might have an extension
-    '/(api|trpc)(.*)',
+    '/(api|trpc|webapi)(.*)',
     // include the /
     '/',
     '/chat(.*)',
     '/settings(.*)',
+    '/files(.*)',
+    '/repos(.*)',
     // ↓ cloud ↓
   ],
 };
@@ -46,6 +48,7 @@ const nextAuthMiddleware = NextAuthEdge.auth((req) => {
 
 const isProtectedRoute = createRouteMatcher([
   '/settings(.*)',
+  '/files(.*)',
   // ↓ cloud ↓
 ]);
 
