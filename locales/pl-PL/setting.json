@@ -170,6 +170,20 @@
     },
     "title": "Informacje o asystencie"
   },
+  "settingAppearance": {
+    "neutralColor": {
+      "desc": "Dostosowanie odcieni szarości w różnych kolorach",
+      "title": "Kolor neutralny"
+    },
+    "preview": {
+      "title": "Paleta kolorów"
+    },
+    "primaryColor": {
+      "desc": "Dostosowanie koloru motywu",
+      "title": "Kolor motywu"
+    },
+    "title": "Wygląd aplikacji"
+  },
   "settingChat": {
     "autoCreateTopicThreshold": {
       "desc": "Automatyczne tworzenie tematu po przekroczeniu określonej liczby wiadomości",
@@ -212,12 +226,53 @@
     "submit": "Zaktualizuj preferencje czatu",
     "title": "Ustawienia czatu"
   },
+  "settingChatAppearance": {
+    "fontSize": {
+      "desc": "Rozmiar czcionki w treści czatu",
+      "marks": {
+        "normal": "Standardowy"
+      },
+      "title": "Rozmiar czcionki"
+    },
+    "highlighterTheme": {
+      "title": "Motyw podświetlania kodu"
+    },
+    "mermaidTheme": {
+      "title": "Motyw Syreny"
+    },
+    "title": "Wygląd czatu",
+    "transitionMode": {
+      "desc": "Animacja przejścia wiadomości czatu",
+      "options": {
+        "fadeIn": "Pojawianie się",
+        "none": {
+          "desc": "To zależy od sposobu generowania odpowiedzi przez model, proszę przetestować samodzielnie.",
+          "value": "Brak"
+        },
+        "smooth": "Płynne"
+      },
+      "title": "Animacja przejścia"
+    }
+  },
+  "settingCommon": {
+    "lang": {
+      "autoMode": "Podążaj za systemem",
+      "title": "Język"
+    },
+    "themeMode": {
+      "auto": "Automatyczny",
+      "dark": "Ciemny",
+      "light": "Jasny",
+      "title": "Motyw"
+    },
+    "title": "Ustawienia ogólne"
+  },
   "settingModel": {
     "enableMaxTokens": {
       "title": "Włącz limit jednorazowej odpowiedzi"
     },
     "enableReasoningEffort": {
-      "title": "Włącz dostosowanie intensywności rozumowania"
+      "title": "Włącz regulację intensywności wnioskowania"
     },
     "frequencyPenalty": {
       "desc": "Im większa wartość, tym bardziej zróżnicowane i bogate słownictwo; im mniejsza wartość, tym prostsze i bardziej bezpośrednie słownictwo",
@@ -239,13 +294,13 @@
       "title": "Różnorodność wyrażeń"
     },
     "reasoningEffort": {
-      "desc": "Im wyższa wartość, tym silniejsza zdolność rozumowania, ale może to zwiększyć czas odpowiedzi i zużycie tokenów",
+      "desc": "Im wyższa wartość, tym silniejsza zdolność wnioskowania, ale może to zwiększyć czas odpowiedzi i zużycie tokenów",
       "options": {
-        "high": "Wysoki",
-        "low": "Niski",
-        "medium": "Średni"
+        "high": "Wysoka",
+        "low": "Niska",
+        "medium": "Średnia"
       },
-      "title": "Intensywność rozumowania"
+      "title": "Intensywność wnioskowania"
     },
     "submit": "Zaktualizuj ustawienia modelu",
     "temperature": {
@@ -336,37 +391,6 @@
       "preview": "Podgląd głosu",
       "title": "Głos syntezy mowy"
     }
-  },
-  "settingTheme": {
-    "avatar": {
-      "title": "Awatar"
-    },
-    "fontSize": {
-      "desc": "Rozmiar czcionki wiadomości",
-      "marks": {
-        "normal": "Standardowy"
-      },
-      "title": "Rozmiar czcionki"
-    },
-    "lang": {
-      "autoMode": "Automatycznie",
-      "title": "Język"
-    },
-    "neutralColor": {
-      "desc": "Dostosowanie odcieni szarości z różnymi kolorami",
-      "title": "Kolor neutralny"
-    },
-    "primaryColor": {
-      "desc": "Dostosowywanie koloru motywu",
-      "title": "Kolor motywu"
-    },
-    "themeMode": {
-      "auto": "Automatyczny",
-      "dark": "Ciemny",
-      "light": "Jasny",
-      "title": "Motyw"
-    },
-    "title": "Ustawienia motywu"
   },
   "storage": {
     "actions": {

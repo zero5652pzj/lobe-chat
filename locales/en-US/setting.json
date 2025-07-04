@@ -170,6 +170,20 @@
     },
     "title": "Assistant Information"
   },
+  "settingAppearance": {
+    "neutralColor": {
+      "desc": "Custom grayscale with different color tendencies",
+      "title": "Neutral Color"
+    },
+    "preview": {
+      "title": "Color Palette"
+    },
+    "primaryColor": {
+      "desc": "Custom theme color",
+      "title": "Theme Color"
+    },
+    "title": "Application Appearance"
+  },
   "settingChat": {
     "autoCreateTopicThreshold": {
       "desc": "Automatically create a topic when the current message count exceeds this value",
@@ -212,6 +226,47 @@
     "submit": "Update Chat Preferences",
     "title": "Chat Settings"
   },
+  "settingChatAppearance": {
+    "fontSize": {
+      "desc": "Font size of chat content",
+      "marks": {
+        "normal": "Standard"
+      },
+      "title": "Font Size"
+    },
+    "highlighterTheme": {
+      "title": "Code Highlight Theme"
+    },
+    "mermaidTheme": {
+      "title": "Mermaid Theme"
+    },
+    "title": "Chat Appearance",
+    "transitionMode": {
+      "desc": "Transition animation for chat messages",
+      "options": {
+        "fadeIn": "Fade In",
+        "none": {
+          "desc": "This depends on the model's response output method; please test it yourself.",
+          "value": "None"
+        },
+        "smooth": "Smooth"
+      },
+      "title": "Transition Animation"
+    }
+  },
+  "settingCommon": {
+    "lang": {
+      "autoMode": "Follow System",
+      "title": "Language"
+    },
+    "themeMode": {
+      "auto": "Automatic",
+      "dark": "Dark",
+      "light": "Light",
+      "title": "Theme"
+    },
+    "title": "General Settings"
+  },
   "settingModel": {
     "enableMaxTokens": {
       "title": "Enable Max Tokens Limit"
@@ -239,7 +294,7 @@
       "title": "Expression Divergence"
     },
     "reasoningEffort": {
-      "desc": "The higher the value, the stronger the reasoning ability, but it may increase response time and token consumption.",
+      "desc": "Higher values enhance reasoning ability but may increase response time and token usage.",
       "options": {
         "high": "High",
         "low": "Low",
@@ -336,37 +391,6 @@
       "preview": "Voice Preview",
       "title": "Text-to-Speech Voice"
     }
-  },
-  "settingTheme": {
-    "avatar": {
-      "title": "Avatar"
-    },
-    "fontSize": {
-      "desc": "Font size for chat content",
-      "marks": {
-        "normal": "Normal"
-      },
-      "title": "Font Size"
-    },
-    "lang": {
-      "autoMode": "Follow System",
-      "title": "Language"
-    },
-    "neutralColor": {
-      "desc": "Custom neutral color for different color tendencies",
-      "title": "Neutral Color"
-    },
-    "primaryColor": {
-      "desc": "Custom primary theme color",
-      "title": "Primary Color"
-    },
-    "themeMode": {
-      "auto": "Auto",
-      "dark": "Dark",
-      "light": "Light",
-      "title": "Theme"
-    },
-    "title": "Theme Settings"
   },
   "storage": {
     "actions": {
