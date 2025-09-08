@@ -1,6 +1,5 @@
-import { uniqueId } from 'lodash-es';
-
-import type { ChatModelCard } from '@/types/llm';
+import type { ChatModelCard } from '@lobechat/types';
+import uniqueId from 'lodash-es/uniqueId';
 
 import { ModelProvider } from '../types';
 import { createOpenAICompatibleRuntime } from '../utils/openaiCompatibleFactory';
@@ -27,7 +26,7 @@ export const LobeHigressAI = createOpenAICompatibleRuntime({
     chatCompletion: () => process.env.DEBUG_HIGRESS_CHAT_COMPLETION === '1',
   },
   models: async ({ client }) => {
-    const { LOBE_DEFAULT_MODEL_LIST } = await import('@/config/aiModels');
+    const { LOBE_DEFAULT_MODEL_LIST } = await import('model-bank');
 
     const modelsPage = (await client.models.list()) as any;
     const modelList: HigressModelCard[] = modelsPage.data;

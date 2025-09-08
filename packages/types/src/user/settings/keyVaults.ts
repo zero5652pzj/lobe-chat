@@ -41,6 +41,7 @@ export interface UserKeyVaults extends SearchEngineKeyVaults {
   ai302?: OpenAICompatibleKeyVault;
   ai360?: OpenAICompatibleKeyVault;
   aihubmix?: OpenAICompatibleKeyVault;
+  akashchat?: OpenAICompatibleKeyVault;
   anthropic?: OpenAICompatibleKeyVault;
   azure?: AzureOpenAIKeyVault;
   azureai?: AzureOpenAIKeyVault;
@@ -67,6 +68,8 @@ export interface UserKeyVaults extends SearchEngineKeyVaults {
   mistral?: OpenAICompatibleKeyVault;
   modelscope?: OpenAICompatibleKeyVault;
   moonshot?: OpenAICompatibleKeyVault;
+  nebius?: OpenAICompatibleKeyVault;
+  newapi?: OpenAICompatibleKeyVault;
   novita?: OpenAICompatibleKeyVault;
   nvidia?: OpenAICompatibleKeyVault;
   ollama?: OpenAICompatibleKeyVault;

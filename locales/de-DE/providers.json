@@ -11,6 +11,9 @@
   "aihubmix": {
     "description": "AiHubMix bietet über eine einheitliche API-Schnittstelle Zugriff auf verschiedene KI-Modelle."
   },
+  "akashchat": {
+    "description": "Akash ist ein genehmigungsfreier Cloud-Ressourcenmarkt, dessen Preisgestaltung im Vergleich zu herkömmlichen Cloud-Anbietern wettbewerbsfähig ist."
+  },
   "anthropic": {
     "description": "Anthropic ist ein Unternehmen, das sich auf Forschung und Entwicklung im Bereich der künstlichen Intelligenz spezialisiert hat und eine Reihe fortschrittlicher Sprachmodelle anbietet, darunter Claude 3.5 Sonnet, Claude 3 Sonnet, Claude 3 Opus und Claude 3 Haiku. Diese Modelle erreichen ein ideales Gleichgewicht zwischen Intelligenz, Geschwindigkeit und Kosten und sind für eine Vielzahl von Anwendungsszenarien geeignet, von unternehmensweiten Arbeitslasten bis hin zu schnellen Reaktionen. Claude 3.5 Sonnet, als neuestes Modell, hat in mehreren Bewertungen hervorragend abgeschnitten und bietet gleichzeitig ein hohes Preis-Leistungs-Verhältnis."
   },
@@ -88,6 +91,12 @@
   },
   "moonshot": {
     "description": "Moonshot ist eine Open-Source-Plattform, die von Beijing Dark Side Technology Co., Ltd. eingeführt wurde und eine Vielzahl von Modellen zur Verarbeitung natürlicher Sprache anbietet, die in vielen Bereichen Anwendung finden, darunter, aber nicht beschränkt auf, Inhaltserstellung, akademische Forschung, intelligente Empfehlungen und medizinische Diagnosen, und unterstützt die Verarbeitung langer Texte und komplexer Generierungsaufgaben."
+  },
+  "nebius": {
+    "description": "Nebius bietet globalen KI-Innovatoren durch den Aufbau großflächiger GPU-Cluster und einer vertikal integrierten Cloud-Plattform leistungsstarke Infrastruktur."
+  },
+  "newapi": {
+    "description": "Open-Source-Plattform zur einheitlichen Weiterleitung mehrerer KI-Dienste"
   },
   "novita": {
     "description": "Novita AI ist eine Plattform, die eine Vielzahl von großen Sprachmodellen und API-Diensten für die KI-Bilderzeugung anbietet, die flexibel, zuverlässig und kosteneffektiv ist. Sie unterstützt die neuesten Open-Source-Modelle wie Llama3 und Mistral und bietet umfassende, benutzerfreundliche und automatisch skalierbare API-Lösungen für die Entwicklung generativer KI-Anwendungen, die für das schnelle Wachstum von KI-Startups geeignet sind."

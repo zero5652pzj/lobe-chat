@@ -11,6 +11,9 @@
   "aihubmix": {
     "description": "AiHubMix ofrece acceso a múltiples modelos de IA a través de una interfaz API unificada."
   },
+  "akashchat": {
+    "description": "Akash es un mercado de recursos en la nube sin necesidad de permisos, con precios competitivos en comparación con los proveedores de nube tradicionales."
+  },
   "anthropic": {
     "description": "Anthropic es una empresa centrada en la investigación y desarrollo de inteligencia artificial, que ofrece una serie de modelos de lenguaje avanzados, como Claude 3.5 Sonnet, Claude 3 Sonnet, Claude 3 Opus y Claude 3 Haiku. Estos modelos logran un equilibrio ideal entre inteligencia, velocidad y costo, adecuados para una variedad de escenarios de aplicación, desde cargas de trabajo empresariales hasta respuestas rápidas. Claude 3.5 Sonnet, como su modelo más reciente, ha demostrado un rendimiento excepcional en múltiples evaluaciones, manteniendo una alta relación calidad-precio."
   },
@@ -88,6 +91,12 @@
   },
   "moonshot": {
     "description": "Moonshot es una plataforma de código abierto lanzada por Beijing Dark Side Technology Co., que ofrece una variedad de modelos de procesamiento del lenguaje natural, con aplicaciones en campos amplios, incluyendo pero no limitado a creación de contenido, investigación académica, recomendaciones inteligentes y diagnóstico médico, apoyando el procesamiento de textos largos y tareas de generación complejas."
+  },
+  "nebius": {
+    "description": "Nebius proporciona infraestructura de alto rendimiento a innovadores de IA en todo el mundo mediante la construcción de grandes clústeres de GPU y una plataforma en la nube integrada verticalmente."
+  },
+  "newapi": {
+    "description": "Plataforma de reenvío unificado y agregación de múltiples servicios de IA de código abierto"
   },
   "novita": {
     "description": "Novita AI es una plataforma que ofrece servicios API para múltiples modelos de lenguaje de gran tamaño y generación de imágenes de IA, siendo flexible, confiable y rentable. Soporta los últimos modelos de código abierto como Llama3 y Mistral, proporcionando soluciones API completas, amigables para el usuario y autoescalables para el desarrollo de aplicaciones de IA, adecuadas para el rápido crecimiento de startups de IA."

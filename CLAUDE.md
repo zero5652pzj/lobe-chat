@@ -24,7 +24,7 @@ read @.cursor/rules/project-structure.mdc
 This repository adopts a monorepo structure.
 
 - Use `pnpm` as the primary package manager for dependency management
-- Use `bun` to run npm scripts at the root level
+- Use `bun` to run npm scripts
 - Use `bunx` to run executable npm packages
 
 ### TypeScript Code Style Guide
@@ -58,12 +58,11 @@ Testing work follows the Rule-Aware Task Execution system above.
 
 - use `bun run type-check` to check type errors.
 
-### Internationalization
+### i18n
 
 - **Keys**: Add to `src/locales/default/namespace.ts`
-- **Dev**: Translate at least `zh-CN` files for preview
-- **Structure**: Hierarchical nested objects, not flat keys
-- **Script**: DON'T run `pnpm i18n` (user/CI handles it)
+- **Dev**: Translate `locales/zh-CN/namespace.json` locale file only for preview
+- DON'T run `pnpm i18n`, let CI auto handle it
 
 ## Rules Index
 

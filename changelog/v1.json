@@ -1,6 +1,321 @@
 [
   {
     "children": {
+      "fixes": ["Revert V1 Mobile."]
+    },
+    "date": "2025-09-06",
+    "version": "1.124.4"
+  },
+  {
+    "children": {
+      "improvements": ["Refactor to remove edge runtime and add more tests."]
+    },
+    "date": "2025-09-06",
+    "version": "1.124.3"
+  },
+  {
+    "children": {
+      "fixes": ["Fix ChatInput send command switch."]
+    },
+    "date": "2025-09-06",
+    "version": "1.124.2"
+  },
+  {
+    "children": {
+      "fixes": ["Enhance NewAPI with environment variables and fix routers compatibility."],
+      "improvements": ["Update doubao-seed-1.6-vision models."]
+    },
+    "date": "2025-09-06",
+    "version": "1.124.1"
+  },
+  {
+    "children": {
+      "features": ["ChatInput support rich text and support parallel send."]
+    },
+    "date": "2025-09-06",
+    "version": "1.124.0"
+  },
+  {
+    "children": {
+      "improvements": ["Remove edge runtime."]
+    },
+    "date": "2025-09-05",
+    "version": "1.123.4"
+  },
+  {
+    "children": {
+      "fixes": ["Fix mobile header title to loog not ellipsis."]
+    },
+    "date": "2025-09-05",
+    "version": "1.123.3"
+  },
+  {
+    "children": {
+      "fixes": ["Not use branch topic when this topic is not save."]
+    },
+    "date": "2025-09-05",
+    "version": "1.123.2"
+  },
+  {
+    "children": {
+      "improvements": ["Update i18n."]
+    },
+    "date": "2025-09-05",
+    "version": "1.123.1"
+  },
+  {
+    "children": {
+      "features": ["Add NewAPI as a router provider for multi-model aggregation."]
+    },
+    "date": "2025-09-04",
+    "version": "1.123.0"
+  },
+  {
+    "children": {
+      "improvements": ["Make LobeNextAuthDBAdapter Edge Compatible."]
+    },
+    "date": "2025-09-04",
+    "version": "1.122.7"
+  },
+  {
+    "children": {},
+    "date": "2025-09-04",
+    "version": "1.122.6"
+  },
+  {
+    "children": {
+      "improvements": ["Make LobeNextAuthDBAdapter Edge Compatible."]
+    },
+    "date": "2025-09-04",
+    "version": "1.122.5"
+  },
+  {
+    "children": {
+      "improvements": ["Update i18n."]
+    },
+    "date": "2025-09-04",
+    "version": "1.122.4"
+  },
+  {
+    "children": {
+      "fixes": ["Support base64 image from markdown image syntax."],
+      "improvements": ["Update the price of the o3 model in OpenRouter."]
+    },
+    "date": "2025-09-04",
+    "version": "1.122.3"
+  },
+  {
+    "children": {},
+    "date": "2025-09-04",
+    "version": "1.122.2"
+  },
+  {
+    "children": {},
+    "date": "2025-09-04",
+    "version": "1.122.1"
+  },
+  {
+    "children": {
+      "features": ["Refactor to speed up send message in server mode."]
+    },
+    "date": "2025-09-04",
+    "version": "1.122.0"
+  },
+  {
+    "children": {
+      "fixes": ["Fix socks5 proxy not work problem, fix virtuaso minheight was null."]
+    },
+    "date": "2025-09-03",
+    "version": "1.121.1"
+  },
+  {
+    "children": {
+      "features": ["Add nano banana Chinese prompt notify."]
+    },
+    "date": "2025-09-03",
+    "version": "1.121.0"
+  },
+  {
+    "children": {
+      "improvements": ["Update i18n."]
+    },
+    "date": "2025-09-02",
+    "version": "1.120.7"
+  },
+  {
+    "children": {
+      "improvements": ["Add upload hint for non-visual model."]
+    },
+    "date": "2025-09-01",
+    "version": "1.120.6"
+  },
+  {
+    "children": {},
+    "date": "2025-09-01",
+    "version": "1.120.5"
+  },
+  {
+    "children": {
+      "improvements": ["Adjust ControlsForm component to adapt to mobile phone display."]
+    },
+    "date": "2025-09-01",
+    "version": "1.120.4"
+  },
+  {
+    "children": {
+      "improvements": ["Support new provider Nebius."]
+    },
+    "date": "2025-09-01",
+    "version": "1.120.3"
+  },
+  {
+    "children": {
+      "improvements": ["Remove base path."]
+    },
+    "date": "2025-08-31",
+    "version": "1.120.2"
+  },
+  {
+    "children": {
+      "improvements": ["Update i18n."]
+    },
+    "date": "2025-08-31",
+    "version": "1.120.1"
+  },
+  {
+    "children": {
+      "improvements": ["Remove webrtc sync feature flag."],
+      "features": ["Rename Gemini 2.5 flash image to Nano Banana."]
+    },
+    "date": "2025-08-30",
+    "version": "1.120.0"
+  },
+  {
+    "children": {},
+    "date": "2025-08-30",
+    "version": "1.119.2"
+  },
+  {
+    "children": {
+      "fixes": ["Update enableStreaming name."]
+    },
+    "date": "2025-08-30",
+    "version": "1.119.1"
+  },
+  {
+    "children": {
+      "features": ["Added support for Azure OpenAI Image Generation."]
+    },
+    "date": "2025-08-30",
+    "version": "1.119.0"
+  },
+  {
+    "children": {
+      "improvements": ["Update DeepSeek V3.1 & Gemini 2.5 Flash Image Preview models."]
+    },
+    "date": "2025-08-30",
+    "version": "1.118.8"
+  },
+  {
+    "children": {
+      "improvements": ["Update i18n."]
+    },
+    "date": "2025-08-30",
+    "version": "1.118.7"
+  },
+  {
+    "children": {
+      "improvements": ["Support non-stream mode."]
+    },
+    "date": "2025-08-29",
+    "version": "1.118.6"
+  },
+  {
+    "children": {
+      "improvements": ["Fix clerk scrollBox style, ModelFetcher support getting prices."]
+    },
+    "date": "2025-08-29",
+    "version": "1.118.5"
+  },
+  {
+    "children": {
+      "improvements": ["Fix chat session part switch theme issue."]
+    },
+    "date": "2025-08-29",
+    "version": "1.118.4"
+  },
+  {
+    "children": {
+      "fixes": ["Correct totalOutputTokens calculation for XAI provider."]
+    },
+    "date": "2025-08-29",
+    "version": "1.118.3"
+  },
+  {
+    "children": {
+      "improvements": ["Add Grok Code Fast 1 model."]
+    },
+    "date": "2025-08-29",
+    "version": "1.118.2"
+  },
+  {
+    "children": {
+      "fixes": ["Add Content-Security-Policy env."],
+      "improvements": ["Support Gemini URL context tool."]
+    },
+    "date": "2025-08-29",
+    "version": "1.118.1"
+  },
+  {
+    "children": {
+      "features": ["Add new provider AkashChat."]
+    },
+    "date": "2025-08-29",
+    "version": "1.118.0"
+  },
+  {
+    "children": {
+      "improvements": ["Move chat item into chat."]
+    },
+    "date": "2025-08-29",
+    "version": "1.117.1"
+  },
+  {
+    "children": {
+      "features": [
+        "Ai image support Gemini 2.5 Flash Image, Support Gemini 2.5 Flash Image Preview in OpenRouter."
+      ],
+      "improvements": ["Update i18n."]
+    },
+    "date": "2025-08-29",
+    "version": "1.117.0"
+  },
+  {
+    "children": {
+      "improvements": ["Support html preview."]
+    },
+    "date": "2025-08-28",
+    "version": "1.116.4"
+  },
+  {
+    "children": {
+      "fixes": ["Fix desktop route error."]
+    },
+    "date": "2025-08-28",
+    "version": "1.116.3"
+  },
+  {
+    "children": {},
+    "date": "2025-08-28",
+    "version": "1.116.2"
+  },
+  {
+    "children": {},
+    "date": "2025-08-27",
+    "version": "1.116.1"
+  },
+  {
+    "children": {
       "features": ["Add gemini 2.5 flash image for vertex ai."]
     },
     "date": "2025-08-27",

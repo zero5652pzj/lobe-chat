@@ -1,10 +1,10 @@
-import { nanoid, safeParseJSON } from '@lobechat/utils';
+import { ChatCitationItem, ModelSpeed, ModelTokensUsage } from '@/types/message';
 
-import { CitationItem, ModelSpeed, ModelTokensUsage } from '@/types/message';
-
-import { AgentRuntimeErrorType } from '../../error';
 import { parseToolCalls } from '../../helpers';
 import { ChatStreamCallbacks } from '../../types';
+import { AgentRuntimeErrorType } from '../../types/error';
+import { safeParseJSON } from '../safeParseJSON';
+import { nanoid } from '../uuid';
 
 /**
  * context in the stream to save temporarily data
@@ -23,7 +23,7 @@ export interface StreamContext {
    * relevant to that specific portion of the generated content.
    * This array accumulates all citation items received during the streaming response.
    */
-  returnedCitationArray?: CitationItem[];
+  returnedCitationArray?: ChatCitationItem[];
   /**
    * O series models need a condition to separate part
    */
@@ -364,10 +364,14 @@ export const createTokenSpeedCalculator = (
     }
     // if the chunk is the stop chunk, set as output finish
     if (inputStartAt && outputStartAt && chunk.type === 'usage') {
-      const totalOutputTokens = chunk.data?.totalOutputTokens || chunk.data?.outputTextTokens;
-      const reasoningTokens = chunk.data?.outputReasoningTokens || 0;
+      const totalOutputTokens =
+        chunk.data?.totalOutputTokens ??
+        (chunk.data?.outputTextTokens ?? 0) + (chunk.data?.outputImageTokens ?? 0);
+      const reasoningTokens = chunk.data?.outputReasoningTokens ?? 0;
       const outputTokens =
-        (outputThinking ?? false) ? totalOutputTokens : totalOutputTokens - reasoningTokens;
+        (outputThinking ?? false)
+          ? totalOutputTokens
+          : Math.max(0, totalOutputTokens - reasoningTokens);
       result.push({
         data: {
           tps: (outputTokens / (Date.now() - outputStartAt)) * 1000,
